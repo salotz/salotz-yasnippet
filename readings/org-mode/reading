@@ -1,0 +1,51 @@
+# name: readings/reading
+# key: trigger-key
+# keybinding : keybinding
+# expand-env : ()
+# contributor : salotz
+# expand-env : ()
+# key: vars
+# --
+
+** TODO ${1:Reading Name}
+
+*** rec
+
+#+begin_src rec :tangle readings.rec
+  bibkey: ${2}
+  tags: ${3:}
+  url: ${4:None}
+  type: ${5$$(yas-choose-value '("book" "article" "journal" "thesis"))}
+#+end_src
+
+*** todos
+
+- [ ] verify
+  - [ ] category :: 
+  - [ ] context :: 
+  - [ ] correctness :: 
+  - [ ] contributions :: 
+  - [ ] clarity :: 
+  - [ ] why? :: 
+  - [ ] background :: 
+- [ ] grasp
+  - [ ] mark up document
+  - [ ] interleaved notes
+  - [ ] summarize
+- [ ] reaction
+  - [ ] "thinking" notes
+  - [ ] generate actionables
+  - [ ] collate notes
+  - [ ] actuate change
+
+*** notes
+
+**** summary
+**** actionables
+**** interleaved
+
+**** reaction
+
+
+
+

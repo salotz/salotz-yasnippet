@@ -1,0 +1,22 @@
+* My Yasnippet collection
+
+Yasnippet (annoyingly) enforces a directory structure which
+corresponds to the mode snippets are for. I want to organize them by
+topic, e.g. I have some for coding and some for organizational
+stuff. Unfortunately, the modes these are used often overlap.
+
+So I organize them by topic, and then by the mode. The idea is that
+any individual topic is portable and could in theory be its own
+repository. I just needed a "nursery" repo to start until any one
+topic became big enough to warrant having a standalone separately
+maintained repo.
+
+This does mean that you can't just make a single symlink to this repo
+and be done.
+
+I have a script that merges the modes from different /sources/ (the
+unit of a topic) into a single place at ~$XDG_DATA_HOME/yasnippet~
+which then I have a single configuration line in my ~.emacs~ that
+loads this.
+
+
