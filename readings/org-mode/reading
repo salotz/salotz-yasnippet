@@ -18,31 +18,27 @@
   type: ${5$$(yas-choose-value '("book" "article" "journal" "thesis"))}
 #+end_src
 
-*** todos
+*** verify
 
-- [ ] verify
-  - [ ] category :: 
-  - [ ] context :: 
-  - [ ] correctness :: 
-  - [ ] contributions :: 
-  - [ ] clarity :: 
-  - [ ] why? :: 
-  - [ ] background :: 
-- [ ] grasp
-  - [ ] mark up document
-  - [ ] interleaved notes
-  - [ ] summarize
-- [ ] reaction
-  - [ ] "thinking" notes
-  - [ ] generate actionables
-  - [ ] collate notes
-  - [ ] actuate change
+Thesis:
 
-*** notes
+#+begin_example
+${6}
+#+end_example
 
-**** summary
-**** actionables
-**** interleaved
+- investment :: ${7$$(yas-choose-value '("easy" "react" "study" "extract"))}
+
+Goal:
+
+#+begin_example
+${8}
+#+end_example
+
+**** summarize
+
+${9}
+
+**** notes
 
 **** reaction
 
