@@ -1,0 +1,22 @@
+# name: contacts/contact
+# key: trigger-key
+# keybinding : keybinding
+# expand-env : ()
+# contributor : salotz
+# expand-env : ()
+# key: vars
+# --
+
+
+#----------------------------------------
+nick: ${1}
+full-name: ${2}
+birthdate: ${3}
+
+email: ${4}
+
+phone: ${5}
+
+address: ${6}
+mailing-address: ${7}
+#----------------------------------------
