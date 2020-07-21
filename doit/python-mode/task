@@ -1,0 +1,23 @@
+# name: doit/task
+# key: trigger-key
+# keybinding : keybinding
+# expand-env : ()
+# contributor : salotz
+# expand-env : ()
+# key: vars
+# --
+def task_${1}():
+
+    return {
+        'file_dep' : [
+            '${2}',
+        ],
+        
+        'targets' : [
+            '${3}'
+        ],
+
+        'actions' : [
+            "${4}"
+        ]
+    }

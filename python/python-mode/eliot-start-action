@@ -8,4 +8,4 @@
 # --
 
 with start_action(action_type="${1}") as ${2:ctx}:
-     
+     $0
