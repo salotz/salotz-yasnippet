@@ -1,0 +1,12 @@
+# name: doit/gitignore
+# key: trigger-key
+# keybinding : keybinding
+# expand-env : ()
+# contributor : salotz
+# expand-env : ()
+# key: vars
+# --
+.doit.db.bak
+.doit.db.dat
+.doit.db.dir
+__pycache__
