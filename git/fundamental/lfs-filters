@@ -1,3 +1,11 @@
+# name: git/lfs/gitattributes-filters
+# key: trigger-key
+# keybinding : keybinding
+# expand-env : ()
+# contributor : salotz
+# expand-env : ()
+# key: vars
+# --
 *.pdf filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.tiff filter=lfs diff=lfs merge=lfs -text
